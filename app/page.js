@@ -233,8 +233,7 @@ export default function TroopWebsiteStarter() {
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Photos</div>
             <h2 className="mt-2 text-3xl font-bold tracking-tight">What our troop experience looks like</h2>
-            <p className="mt-3 text-slate-700 max-w-3xl leading-8">
-              This section is ready for real troop photos. Replace the sample images with your own by adding them to the public folder and updating the image links.
+            <p className="mt-3 text-slate-700 max-w-3xl leading-8"> 
             </p>
           </div>
         </div>
@@ -258,7 +257,7 @@ export default function TroopWebsiteStarter() {
 
         <div className="mt-8 grid lg:grid-cols-[1.2fr_0.8fr] gap-6">
           <div className="rounded-3xl bg-white border p-6 shadow-sm">
-            <h3 className="text-xl font-bold">Best photos to add here</h3>
+            <h3 className="text-xl font-bold"></h3>
             <div className="mt-4 grid sm:grid-cols-2 gap-3">
               {photoTips.map((tip) => (
                 <div key={tip} className="rounded-2xl bg-slate-50 border px-4 py-3 text-slate-700">

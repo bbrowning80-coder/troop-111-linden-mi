@@ -47,27 +47,32 @@ export default function TroopWebsiteStarter() {
   const girlsTroopQr = "/girls-qr.png";
 
   const galleryImages = [
-    {
-      src: "https://images.unsplash.com/photo-1517164850305-99a3e65bb47e?auto=format&fit=crop&w=1200&q=80",
-      alt: "Scouts hiking on a wooded trail",
-      title: "Outdoor Adventure",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1200&q=80",
-      alt: "Campfire scene outdoors",
-      title: "Camping & Fellowship",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1522163182402-834f871fd851?auto=format&fit=crop&w=1200&q=80",
-      alt: "Youth group working together outdoors",
-      title: "Leadership & Teamwork",
-    },
-    {
-      src: "https://images.unsplash.com/photo-1501554728187-ce583db33af7?auto=format&fit=crop&w=1200&q=80",
-      alt: "Scenic outdoor adventure view",
-      title: "High Adventure",
-    },
-  ];
+  {
+    src: "/photos/campout1.jpg",
+    alt: "Troop campout",
+    title: "Camping",
+  },
+  {
+    src: "/photos/campout2.jpg",
+    alt: "Troop campout activities",
+    title: "Camp Life",
+  },
+  {
+    src: "/photos/campout3.jpg",
+    alt: "Scouts outdoors",
+    title: "Outdoor Skills",
+  },
+  {
+    src: "/photos/high-adventure.jpg",
+    alt: "High adventure activity",
+    title: "High Adventure",
+  },
+  {
+    src: "/photos/conservation.jpg",
+    alt: "Conservation project",
+    title: "Conservation",
+  },
+];
 
   const photoTips = [
     "Troop meetings and patrol activities",

@@ -233,8 +233,8 @@ export default function TroopWebsiteStarter() {
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Photos</div>
             <h2 className="mt-2 text-3xl font-bold tracking-tight">What our troop experience looks like</h2>
-            <p className="mt-3 text-slate-700 max-w-3xl leading-8"> 
-            </p>
+            <p className="mt-3 text-slate-700 max-w-3xl leading-8">             
+                         </p>
           </div>
         </div>
 

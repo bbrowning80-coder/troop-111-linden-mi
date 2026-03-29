@@ -50,12 +50,12 @@ export default function TroopWebsiteStarter() {
   {
     src: "/photos/campout1.jpg",
     alt: "Troop campout",
-    title: "Camping",
+    title: "Summer Camp",
   },
   {
     src: "/photos/campout2.jpg",
-    alt: "Troop campout activities",
-    title: "Camp Life",
+    alt: "Troop campout activities", 
+    title: "Hiking",
   },
   {
     src: "/photos/campout3.jpg",

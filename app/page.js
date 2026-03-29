@@ -47,32 +47,32 @@ export default function TroopWebsiteStarter() {
   const girlsTroopQr = "/girls-qr.png";
 
   const galleryImages = [
-  {
-    src: "/photos/campout1.jpg",
-    alt: "Troop campout",
-    title: "Summer Camp",
-  },
-  {
-    src: "/photos/campout2.jpg",
-    alt: "Troop campout activities", 
-    title: "Hiking",
-  },
-  {
-    src: "/photos/campout3.jpg",
-    alt: "Scouts outdoors",
-    title: "Outdoor Skills",
-  },
-  {
-    src: "/photos/high-adventure.jpg",
-    alt: "High adventure activity",
-    title: "High Adventure",
-  },
-  {
-    src: "/photos/conservation.jpg",
-    alt: "Conservation project",
-    title: "Conservation",
-  },
-];
+    {
+      src: "/photos/campout1.jpg",
+      alt: "Troop campout",
+      title: "Summer Camp",
+    },
+    {
+      src: "/photos/campout2.jpg",
+      alt: "Troop campout activities",
+      title: "Hiking",
+    },
+    {
+      src: "/photos/campout3.jpg",
+      alt: "Scouts outdoors",
+      title: "Outdoor Skills",
+    },
+    {
+      src: "/photos/high-adventure.jpg",
+      alt: "High adventure activity",
+      title: "High Adventure",
+    },
+    {
+      src: "/photos/conservation.jpg",
+      alt: "Conservation project",
+      title: "Conservation",
+    },
+  ];
 
   const photoTips = [
     "Troop meetings and patrol activities",
@@ -233,8 +233,9 @@ export default function TroopWebsiteStarter() {
           <div>
             <div className="text-sm font-semibold uppercase tracking-[0.2em] text-emerald-700">Photos</div>
             <h2 className="mt-2 text-3xl font-bold tracking-tight">What our troop experience looks like</h2>
-            <p className="mt-3 text-slate-700 max-w-3xl leading-8">             
-                         </p>
+            <p className="mt-3 text-slate-700 max-w-3xl leading-8">
+              A few snapshots of outdoor adventure, service, and troop life.
+            </p>
           </div>
         </div>
 
@@ -257,7 +258,7 @@ export default function TroopWebsiteStarter() {
 
         <div className="mt-8 grid lg:grid-cols-[1.2fr_0.8fr] gap-6">
           <div className="rounded-3xl bg-white border p-6 shadow-sm">
-            <h3 className="text-xl font-bold"></h3>
+            <h3 className="text-xl font-bold">Photo Guidelines</h3>
             <div className="mt-4 grid sm:grid-cols-2 gap-3">
               {photoTips.map((tip) => (
                 <div key={tip} className="rounded-2xl bg-slate-50 border px-4 py-3 text-slate-700">
@@ -429,6 +430,7 @@ export default function TroopWebsiteStarter() {
             <p className="mt-4 text-slate-700 leading-8">
               Families are welcome to visit a troop meeting, meet the leadership team, and learn how our program works. The site is intentionally built around evergreen information so it only needs occasional updates instead of constant weekly maintenance.
             </p>
+
             <div className="mt-6 grid sm:grid-cols-2 gap-5">
               <div className="rounded-3xl border bg-slate-50 p-5">
                 <div className="text-lg font-bold">Troop 111B</div>
@@ -436,15 +438,32 @@ export default function TroopWebsiteStarter() {
                 <div className="mt-4 rounded-2xl bg-white p-4 border inline-block">
                   <img src={boysTroopQr} alt="QR code to join Troop 111B" className="w-40 h-40 object-contain" />
                 </div>
-                <p className="mt-3 text-sm text-slate-600">Scan to join the boys troop.</p>
+                <a
+                  href="https://my.scouting.org/VES/OnlineReg/1.0.0/?tu=UF-MB-780tab0111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 block text-center rounded-xl bg-emerald-600 text-white font-semibold py-2 hover:bg-emerald-700 transition"
+                >
+                  Join Troop 111B
+                </a>
+                <p className="mt-3 text-sm text-slate-600">Scan the QR code or click to join.</p>
               </div>
+
               <div className="rounded-3xl border bg-slate-50 p-5">
                 <div className="text-lg font-bold">Troop 111G</div>
                 <div className="mt-2 text-slate-700">Girls troop</div>
-                <div className="mt-4 rounded-2xl border border-dashed border-slate-300 bg-white p-6 text-sm text-slate-500">
+                <div className="mt-4 rounded-2xl bg-white p-4 border inline-block">
                   <img src={girlsTroopQr} alt="QR code to join Troop 111G" className="w-40 h-40 object-contain" />
                 </div>
-                <p className="mt-3 text-sm text-slate-600">Scan to join the girls troop.</p>
+                <a
+                  href="https://my.scouting.org/VES/OnlineReg/1.0.0/?tu=UF-MB-780taf0111"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-4 block text-center rounded-xl bg-emerald-600 text-white font-semibold py-2 hover:bg-emerald-700 transition"
+                >
+                  Join Troop 111G
+                </a>
+                <p className="mt-3 text-sm text-slate-600">Scan the QR code or click to join.</p>
               </div>
             </div>
           </div>
